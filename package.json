@@ -1,0 +1,20 @@
+{
+  "name": "digital-clock",
+  "version": "1.0.0",
+  "description": "Digital clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "clock"
+  ],
+  "author": "Augustin Godiscal <hello@auggod.tech>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "left-pad": "^1.2.0"
+  }
+}
