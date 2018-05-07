@@ -1,5 +1,5 @@
 {
-  "name": "digital-clock",
+  "name": "mm-ss",
   "version": "1.0.0",
   "description": "Digital clock",
   "main": "index.js",
