@@ -4,7 +4,8 @@
   "description": "Digital clock",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test.js"
+    "deps": "dependency-check .",
+    "test": "standard && npm run deps && node test.js"
   },
   "keywords": [
     "clock"
@@ -12,7 +13,8 @@
   "author": "Augustin Godiscal <hello@auggod.tech>",
   "license": "MIT",
   "devDependencies": {
-    "tape": "^4.8.0"
+    "standard": "^11.0.1",
+    "tape": "^4.9.0"
   },
   "dependencies": {
     "left-pad": "^1.2.0"
